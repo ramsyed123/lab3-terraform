@@ -34,9 +34,9 @@ jobs:
         working-directory: ./terraform
         run: terraform init
 
-      - name: Terraform Init
+      - name: Terraform plan
         working-directory: ./terraform
-        run: terraform plan        
+        run: terraform plan -out myplan       
 
       - name: Terraform destroy
         working-directory: ./terraform
