@@ -13,7 +13,7 @@ permissions:
  
 
 jobs:
-  terraform-destro:
+  terraform-destroy:
     runs-on: ubuntu-latest
 
     steps:
